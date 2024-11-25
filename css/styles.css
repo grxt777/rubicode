@@ -1,0 +1,91 @@
+/* Подключение шрифта Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* Общие стили */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Стиль для контейнера */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+/* Стили для кнопок */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Увеличение кнопки */
+}
+
+
+
+/* Основной контент */
+main {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Разделы с курсами */
+section {
+    margin-top: 20px;
+}
+
+section a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+section a:hover {
+    background-color: #666;
+}
+
+/* Футер */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    margin-top: 20px;
+}
