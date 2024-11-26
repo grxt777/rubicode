@@ -21,6 +21,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Стили для навигации */
@@ -80,4 +82,12 @@ footer {
     padding: 15px;
     border-radius: 0 0 15px 15px;
     margin-top: 20px;
+}
+
+@media (max-width: 700px){
+    .container{
+        margin-top: 350px;
+        margin-bottom: 150px;
+        
+    }
 }

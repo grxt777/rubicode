@@ -22,8 +22,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     color: white;
-    margin-top: 50px; /* Добавлено отступ сверху */
-    margin-bottom: 50px; /* Добавлено отступ сверху */
+    margin-top: 50px; 
+    margin-bottom: 50px; 
 }
 
 
@@ -49,6 +49,7 @@ nav ul li a {
     text-align: center;
     font-weight: bold;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-left: 10px;
 }
 
 nav ul li a:hover {
@@ -105,4 +106,12 @@ footer {
     padding: 15px;
     border-radius: 0 0 15px 15px;
     margin-top: 20px;
+}
+
+
+@media (max-width: 700px){
+    .container {
+        margin-top: 350px;
+        margin-bottom: 150px;
+    }
 }
